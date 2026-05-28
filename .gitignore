@@ -1,0 +1,15 @@
+.env
+
+vendor/
+
+node_modules/
+
+*.log
+
+*.sql
+
+.htpasswd
+
+config.php
+
+backup.sql
