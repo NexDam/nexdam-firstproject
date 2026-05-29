@@ -88,11 +88,11 @@ $disk = shell_exec("df -h / | tail -1");
 
         <a href="logs.php">📁 Logs</a>
 
-        <a href="settings.php">⚙ Settings</a>
-
         <a href="users.php">
            👥 Users
         </a>
+
+        <a href="settings.php">⚙ Settings</a>
 
         <a href="logout.php" class="logout-btn">
         🚪 Logout
