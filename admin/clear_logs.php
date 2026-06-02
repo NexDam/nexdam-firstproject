@@ -1,5 +1,7 @@
 <?php
 
+require 'auth.php';
+
 shell_exec('sudo /usr/bin/truncate -s 0 /var/log/apache2/access.log');
 
 shell_exec('sudo /usr/bin/truncate -s 0 /var/log/apache2/error.log');

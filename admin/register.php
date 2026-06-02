@@ -390,13 +390,13 @@ Registrati
 
 <div class="error">
 
-<?php echo $error; ?>
+<?php echo htmlspecialchars($error); ?>
 
 </div>
 
 <div class="success">
 
-<?php echo $success; ?>
+<?php echo htmlspecialchars($success); ?>
 
 </div>
 

@@ -151,7 +151,7 @@ content="0"
 
 <title>Login</title>
 
-<link rel="stylesheet" href="../css/admin.css">
+<link rel="stylesheet" href="css/admin.css">
 
 <style>
 
@@ -412,13 +412,14 @@ Login
 
 <div class="error">
 
-<?php echo $error; ?>
+<?php echo htmlspecialchars($error); ?>
 
 </div>
 
 <div class="info">
 
-Apache2 • PHP • MariaDB • WSL
+Apache2 • PHP • MariaDB • WSL<br>
+<span style="font-size:12px; color:#475569;">Creato da <a href="https://www.nexdam.it/home.html" target="_blank" rel="noopener" style="color:#60a5fa; text-decoration:none; font-weight:600;">Nexdam</a></span>
 
 </div>
 

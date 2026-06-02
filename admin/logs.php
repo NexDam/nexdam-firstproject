@@ -165,6 +165,9 @@ content="0">
 </style>
 
 </head>
+
+<body>
+
 <script>
 
 setInterval(() => {
@@ -174,7 +177,6 @@ setInterval(() => {
 }, 5000);
 
 </script>
-<body>
 
 <!-- SIDEBAR -->
 

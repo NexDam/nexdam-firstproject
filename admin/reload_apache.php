@@ -1,5 +1,7 @@
 <?php
 
+require 'auth.php';
+
 shell_exec('sudo /usr/sbin/service apache2 reload > /dev/null 2>&1 &');
 
 header("Refresh:2; url=settings.php");

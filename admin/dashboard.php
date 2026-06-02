@@ -592,6 +592,8 @@ class="terminal-input"
 autocomplete="off"
 >
 
+<button type="submit" style="background:#22c55e;color:#000;border:none;padding:10px 22px;border-radius:8px;font-family:monospace;font-weight:bold;cursor:pointer;">Esegui</button>
+
 </form>
 
 <pre>

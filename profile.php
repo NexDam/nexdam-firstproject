@@ -17,6 +17,10 @@ $conn = new mysqli(
     "mydb"
 );
 
+if($conn->connect_error){
+    die("Errore connessione database");
+}
+
 $userId = $_SESSION["id"];
 
 /* ELIMINA ACCOUNT */
@@ -305,6 +309,10 @@ onclick="return confirm(
 ← Torna alla Home
 
 </a>
+
+<div style="margin-top:28px; text-align:center; font-size:13px; color:#334155;">
+    Creato da <a href="https://www.nexdam.it/home.html" target="_blank" rel="noopener" style="color:#60a5fa; text-decoration:none; font-weight:600;">Nexdam</a>
+</div>
 
 </div>
 
