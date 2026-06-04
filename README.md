@@ -1,4 +1,4 @@
-# NexDam Server Dashboard
+# NexDam First Project Server Dashboard
 
 ![NexDam](https://img.shields.io/badge/NexDam-Secure%20Web%20Infrastructure-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
